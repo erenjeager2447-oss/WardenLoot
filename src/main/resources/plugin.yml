@@ -1,0 +1,13 @@
+name: WardenLoot
+version: 1.0.0
+main: dev.wardenloot.WardenLoot
+api-version: '1.21'
+description: Warden drops a Warden Helmet and Warden Hammer with custom powers.
+commands:
+  wardengive:
+    description: Give yourself a Warden item (for testing)
+    usage: /wardengive <helmet|hammer>
+permissions:
+  wardenloot.give:
+    default: op
+    
